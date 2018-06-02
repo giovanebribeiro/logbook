@@ -6,6 +6,7 @@
 # Author: Giovane Boaviagem Ribeiro (github.com/giovanebribeiro)
 ##
 
+
 # Some environment variables
 VERSION=0.0.0
 FILE=$HOME/logbook.txt
