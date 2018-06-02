@@ -2,7 +2,6 @@
 
 ##
 # File: logbook.sh
-# Description: Creates and manages a history of all activities performed by system administrators on linux servers. 
 # Created on: 01/06/2018
 # Author: Giovane Boaviagem Ribeiro (github.com/giovanebribeiro)
 ##
@@ -36,8 +35,10 @@ then
   echo logbook v$VERSION
   echo Usage: ./logbook.sh [options] message
   echo
-  echo h ........ Print this help
-  echo v ........ Print the version
+  echo -h ........ Print this help
+  echo -v ........ Print the version
+  echo -t [tagname] ........ List all tags. If tagname is present, 
+  echo
 
   echo
   exit 0
